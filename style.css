@@ -1,0 +1,53 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle,rgb(75 159 210)  0%, rgba(5,1,1,1) 100%);
+}
+
+.container{
+
+
+
+margin: 0px auto;
+
+}
+
+.chess{
+    width: 1000px;
+    height: 100vh; 
+    border: 20px groove #7ea7b8;
+   margin: 0px auto;
+}
+
+.black{
+    width: calc(100% - 87.5%);
+    height: calc(100% - 87.5%);
+    background-color: black;
+    color: aliceblue;
+    float: left;
+    font-size: 80px;
+    text-align: center;
+}
+
+.white{
+    width: calc(100% - 87.5%);
+    height: calc(100% - 87.5%);
+    background-color: whitesmoke;
+    color: black;
+    float: left;
+    font-size: 80px;
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    margin: 6px;
+    border:10px groove #6acae2;
+    background-color: transparent;
+}
